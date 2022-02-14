@@ -8,6 +8,7 @@ import App4 from './components/App4';
 import App5 from './components/App5';
 import Formulario from './components/Formulario';
 import { Lista, Lista2, Item } from './components/Lista';
+import Hello from './components/CompFuncionais';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -42,6 +43,7 @@ ReactDOM.render(
       </Itens>
     </Ani>
     <Formulario />
+    <Hello />
   </React.StrictMode>,
   document.getElementById('root')
 );

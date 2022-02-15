@@ -9,6 +9,7 @@ import App5 from './components/App5';
 import Formulario from './components/Formulario';
 import { Lista, Lista2, Item } from './components/Lista';
 import {Hello, Filha, Funcao} from './components/CompFuncionais';
+import {Gancho1, Gancho2, Gancho3} from './components/Gancho';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -49,6 +50,9 @@ ReactDOM.render(
       <h3>Hello, children</h3>
     </Filha>
     <Funcao text="Hello, função"></Funcao>
+    <Gancho1 />
+    <Gancho2 />
+    <Gancho3 />
   </React.StrictMode>,
   document.getElementById('root')
 );

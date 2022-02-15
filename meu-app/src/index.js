@@ -10,6 +10,7 @@ import Formulario from './components/Formulario';
 import { Lista, Lista2, Item } from './components/Lista';
 import {Hello, Filha, Funcao} from './components/CompFuncionais';
 import {Gancho1, Gancho2, Gancho3} from './components/Gancho';
+import {Efeitos1, Efeitos2} from './components/HEfeitos';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -53,6 +54,8 @@ ReactDOM.render(
     <Gancho1 />
     <Gancho2 />
     <Gancho3 />
+    <Efeitos1 />
+    <Efeitos2 />
   </React.StrictMode>,
   document.getElementById('root')
 );

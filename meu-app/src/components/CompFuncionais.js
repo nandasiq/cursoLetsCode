@@ -1,8 +1,19 @@
 import React from 'react';
 
-export default function Hello(){
-
+function Hello(props){
     return(
-        <h1>Hello, world!</h1>
+        <h1>{props.text}</h1>
     );
 }
+
+function Filha({children}){    
+    return(
+    <>
+        {children}
+    </>
+    );
+}
+
+const Funcao = ({text}) => (<h4>{text}</h4>);
+
+export {Hello, Filha, Funcao};
